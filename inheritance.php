@@ -1,13 +1,12 @@
 <?php
 
-// Base class for geometric shapes
 class Shape {
     public function area() {
         return 0;
     }
 }
 
-// Class for Circle
+// Circle
 class Circle extends Shape {
     private $radius;
 
@@ -20,10 +19,9 @@ class Circle extends Shape {
     }
 }
 
-// Class for Rectangle
+// Rectangle
 class Rectangle extends Shape {
-    private $width;
-    private $height;
+    private $width, $height;
 
     public function __construct($width, $height) {
         $this->width = $width;
@@ -35,7 +33,6 @@ class Rectangle extends Shape {
     }
 }
 
-// Example usage
 $circle = new Circle(5);
 echo "Circle Area: " . $circle->area() . "\n";
 
