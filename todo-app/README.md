@@ -1,4 +1,3 @@
-```md
 # Laravel To-Do Application
 
 A simple To-Do CRUD (Create, Read, Update, Delete) application built with the **Laravel** framework. This app allows users to manage their tasks by adding, editing, and deleting to-do items. The app uses Blade for view rendering and Bootstrap for styling.
@@ -18,21 +17,21 @@ A simple To-Do CRUD (Create, Read, Update, Delete) application built with the **
 - MySQL or any other supported database
 - Git
 
-## Installation
+ Installation
 
-1. Clone the repository:
+1. **Clone the repository:**
 
     ```bash
     git clone https://github.com/sahadcse/iNiLabs-intern-assignment
     ```
 
-2. Navigate to the project directory:
+2. **Navigate to the project directory:**
 
     ```bash
     cd todo-app
     ```
 
-3. Install the dependencies:
+3. **Install the dependencies:**
 
     - Install PHP dependencies with Composer:
     
@@ -46,7 +45,7 @@ A simple To-Do CRUD (Create, Read, Update, Delete) application built with the **
       npm install
       ```
 
-4. Configure your environment:
+4. **Configure your environment:**
 
     - Copy the `.env.example` file to `.env`:
 
@@ -65,19 +64,19 @@ A simple To-Do CRUD (Create, Read, Update, Delete) application built with the **
       DB_PASSWORD=your_password
       ```
 
-5. Generate the application key:
+5. **Generate the application key:**
 
     ```bash
     php artisan key:generate
     ```
 
-6. Run migrations:
+6. **Run migrations:**
 
     ```bash
     php artisan migrate
     ```
 
-7. Run the application:
+7. **Run the application:**
 
     - Compile assets with Vite (if applicable):
     
@@ -101,8 +100,8 @@ A simple To-Do CRUD (Create, Read, Update, Delete) application built with the **
 
 ## Technologies Used
 
-- Laravel: PHP framework for building web applications.
-- Blade: Templating engine for rendering views.
-- Bootstrap: CSS framework for responsive design.
-- MySQL: Database for storing to-do items.
-- Vite: Frontend build tool.
+- **Laravel**: PHP framework for building web applications.
+- **Blade**: Templating engine for rendering views.
+- **Bootstrap**: CSS framework for responsive design.
+- **MySQL**: Database for storing to-do items.
+- **Vite**: Frontend build tool.
