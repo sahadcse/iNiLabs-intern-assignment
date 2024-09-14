@@ -1,5 +1,4 @@
 <?php
-
 class Shape {
     public function area() {
         return 0;
@@ -33,10 +32,10 @@ class Rectangle extends Shape {
     }
 }
 
-$circle = new Circle(5);
+$circle = new Circle(32);
 echo "Circle Area: " . $circle->area() . "\n";
 
-$rectangle = new Rectangle(4, 6);
+$rectangle = new Rectangle(3, 2);
 echo "Rectangle Area: " . $rectangle->area() . "\n";
 
 ?>
